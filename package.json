@@ -1,0 +1,24 @@
+{
+  "name": "ssr-next",
+  "version": "1.0.0",
+  "description": "ssr-next",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "wechats@163.com",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0",
+    "next": "^4.2.1",
+    "node-sass": "^4.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "styled-jsx-plugin-sass": "^0.2.2"
+  }
+}
